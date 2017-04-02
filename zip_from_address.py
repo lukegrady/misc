@@ -15,7 +15,7 @@ def zip_from_address(address):
     Returns:
         zip as string
     '''
-    keyfile = '/home/luke/API_Keys/googlemaps'
+    keyfile = '~/.credentials/googlemaps'
     with open(keyfile, 'r') as f:
         api_key = f.read().rstrip()
     gmaps = googlemaps.Client(key=api_key)

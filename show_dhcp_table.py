@@ -34,7 +34,7 @@ def main():
     url = 'http://192.168.1.1/DHCPTable.asp'
     pattern = r"^table\[\d\] = new AAA\('(.+)','(\d+\.\d+\.\d+\.\d+)',.+;"
 
-    passwd_file = '/home/luke/API_Keys/linksys'
+    passwd_file = '~/.credentials/linksys'
     if os.path.isfile(passwd_file):
         with open(passwd_file, 'r') as f:
             passwd = f.read().rstrip()
