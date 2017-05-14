@@ -5,3 +5,6 @@ Random small scripts/snippets that don't merit a full repo of their own
              prints connected DHCP clients
 
 30 Mar 2017: Added zip_from_address - playing with googlemaps api
+
+May 14: Added interpol, a small script I wrote for Upwork
+
